@@ -1,0 +1,11 @@
+vichis-Air-2b74:nodejs-paytm vichi$ nodemon server.js
+
+
+https://dashboard.paytm.com/next/apikeys
+
+
+Below account is using in PayTm:
+
+NameVICHITRA RAJAN SINGH Email ID cv.vichi@gmail.com
+Mobile Number9833097595
+Date Of Birth29/07/1979GenderMALEKYC StatusIncomplete. Get your KYC done on Paytm App

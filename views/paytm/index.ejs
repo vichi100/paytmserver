@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Please wait...</h1>  
+    <form name="f1" id="f1" method="post" action="http://192.168.43.64:3001/api/paytm/request">
+        <input type="text" id="ORDER_ID" name="ORDER_ID" value='erxxtyudgerdewgsfsdfdrgsdetasdsqedfhjlkkn3435' />
+        <input type="text" name="INDUSTRY_TYPE_ID" value="Retail" />
+        <input type="text" id="CUST_ID" name="CUST_ID" value='asdasd22dd' />
+        <input type="text" id="CHANNEL_ID" name="CHANNEL_ID" value='WEB' />
+        <input type="text" id="TXN_AMOUNT" name="TXN_AMOUNT" value='50' />
+        <input type="text" name="WEBSITE" value="DEFAULT" />
+        <!-- Prod env -->
+        <input type="text" name="MID" value="blyNZg58141511496889" />
+        <input type="text" name="PAYTM_MERCHANT_KEY" value="3rwTzyeEyqH8zQ_y" />
+        <!-- Test Env-->    
+        <!-- <input type="text" name="MID" value="qusPIq57067426278781" />
+        <input type="text" name="PAYTM_MERCHANT_KEY" value="TP8mTLQzrc5Kwp9B" /> -->
+        <button type="submit" id="user-submit">Submit</button>
+    </form>
+</body>
+
+</html>
